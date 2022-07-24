@@ -1,0 +1,15 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    paths:
+        - ./
+    excludePaths:
+        - ./art
+        - ./builds
+        - ./resources
+        - ./storage
+        - ./vendor
+        - ./coverage
+    level: 5
+    checkGenericClassInNonGenericObjectType: false
